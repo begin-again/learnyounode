@@ -1,8 +1,9 @@
-const { readFile } = require('fs')
+const fs = require('fs')
+const options = { encoding: 'utf8' }
 
 let file = process.argv[2]
-readFile(file, (err, data) => {
+fs.readFile(file, options, (err, data) => {
   if (err) throw err
-  let lines = data.toString().match(/\n/g).length
+  let lines = data.match(/\n/g).length
   console.log(lines)
 })
