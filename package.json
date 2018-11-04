@@ -8,16 +8,7 @@
     "learnyounode": "^3.5.10",
     "through2-map": "^3.0.0"
   },
-  "scripts": {
-    "print": "learnyounode print",
-    "next": "learnyounode next",
-    "verify": "learnyounode verify",
-    "lrun": "learnyounode run",
-    "lhelp": "learnyounode help",
-    "current": "learnyounode current",
-    "start": "learnyounode",
-    "reset": "learnyounode reset"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:begin-again/learnyounode.git"
