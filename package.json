@@ -7,6 +7,7 @@
   "dependencies": {
     "learnyounode": "^3.5.10",
     "standard": "^12.0.1",
+    "strftime": "^0.10.0",
     "through2-map": "^3.0.0"
   },
   "scripts": {},
